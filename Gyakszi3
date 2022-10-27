@@ -1,0 +1,27 @@
+import  matematika
+
+a  =  int ( bemenet ())
+b  =  int ( bemenet ())
+
+muvelet  =  bemenet ()
+
+eredmeny  =  - 1
+
+if  muvelet  ==  "+" :
+    eredmeny  =  a + b
+elif  muvelet  ==  "-" :
+    eredmeny  =  a - b
+elif  muvelet  ==  "*" :
+    eredmeny  =  a * b
+elif  muvelet  ==  "/" :
+    eredmeny  =  a / b
+elif  muvelet  ==  "**" :
+    eredmeny  =  a ** b
+elif  muvelet  ==  "sqrt" :
+    eredmeny  =  matek . négyzetméter ( a )
+# Hatványozás, gyökvonás,
+
+más :
+    print ( "Nincs ilyen művelet" )
+
+nyomtatás ( eredmeny )
